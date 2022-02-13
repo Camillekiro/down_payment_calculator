@@ -1,0 +1,11 @@
+price = float(input()). # first enter the price of the home
+percentage_d = float(input()) #and then the percentage down in whole numbers
+
+y = percentage_d/100 #percentage calculation
+down_payment = y*price #down payment calculation
+
+print('your down payment will be $',down_payment, 'at', percentage_d, 'percent down') #printed results
+
+
+
+
